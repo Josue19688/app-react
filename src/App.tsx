@@ -60,6 +60,7 @@ const App: React.FC = () => (
                   />
                 ))
               }
+              <Redirect to={routes[0].path} />
             </IonRouterOutlet>
           
           </IonTabs>
